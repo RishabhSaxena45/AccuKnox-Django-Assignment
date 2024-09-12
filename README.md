@@ -1,0 +1,1 @@
+Answer 1. Django signals, by default, run synchronously. This means the signal is triggered and processed within the same thread and request-response cycle as the action that initiated it. The signal handlers (receivers) are executed before the code that triggered the signal can proceed.
